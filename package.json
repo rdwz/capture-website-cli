@@ -4,7 +4,7 @@
 	"description": "Capture screenshots of websites from the command-line",
 	"license": "MIT",
 	"repository": "rdzw/capture-website-cli",
-	"funding": "https://github.com/sponsors/sindresorhus",
+	"funding": "https://github.com/sponsors/rdwz",
 	"author": "Marc Redwerkz <redwerkz@gmail.com> (https://github.com/rdwz)",
 	"type": "module",
 	"bin": {
@@ -37,7 +37,7 @@
 		"jpg"
 	],
 	"dependencies": {
-		"@redwerkz/capture-website": "^4.0.0",
+		"@redwerkz/capture-website": "^5.0.0",
 		"get-stdin": "^9.0.0",
 		"meow": "^12.1.1",
 		"split-on-first": "^3.0.0"
