@@ -120,4 +120,4 @@ done < "$filename"
 
 ## Related
 
-- [capture-website](https://github.com/rdwz/capture-website) - API for this module
+- [@redwerkz/capture-website](https://github.com/rdwz/capture-website) - API for this module
