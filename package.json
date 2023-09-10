@@ -1,6 +1,6 @@
 {
 	"name": "@redwerkz/capture-website-cli",
-	"version": "4.0.0",
+	"version": "5.0.0",
 	"description": "Capture screenshots of websites from the command-line",
 	"license": "MIT",
 	"repository": "rdzw/capture-website-cli",
@@ -11,7 +11,7 @@
 		"capture-website": "./cli.js"
 	},
 	"engines": {
-		"node": ">=16.20"
+		"node": ">=18.17"
 	},
 	"scripts": {
 		"test": "xo && ava"
