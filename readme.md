@@ -7,14 +7,14 @@ It uses [Puppeteer](https://github.com/GoogleChrome/puppeteer) (Chrome) under th
 ## Install
 
 ```sh
-npm install --global capture-website-cli
+npm install --global @redwerkz/capture-website-cli
 ```
 
 Note to Linux users: If you get a "No usable sandbox!" error, you need to enable [system sandboxing](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#setting-up-chrome-linux-sandbox).
 
 ## Usage
 
-```
+```sh
 $ capture-website --help
 
   Usage
@@ -97,13 +97,13 @@ $ capture-website --help
 
 ## FAQ
 
-[More here.](https://github.com/sindresorhus/capture-website#faq)
+[More here.](https://github.com/rdwz/capture-website#faq)
 
 ### How can I capture websites from a file with URLs?
 
 Lets say you have a file named `urls.txt` with:
 
-```
+```sh
 https://sindresorhus.com
 https://github.com
 ```
@@ -120,5 +120,4 @@ done < "$filename"
 
 ## Related
 
-- [capture-website](https://github.com/sindresorhus/capture-website) - API for this module
-- [pageres-cli](https://github.com/sindresorhus/pageres-cli) - A different take on screenshotting websites
+- [capture-website](https://github.com/rdwz/capture-website) - API for this module
