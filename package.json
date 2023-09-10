@@ -11,7 +11,7 @@
 		"capture-website": "./cli.js"
 	},
 	"engines": {
-		"node": ">=14.16"
+		"node": ">=16.20"
 	},
 	"scripts": {
 		"test": "xo && ava"
