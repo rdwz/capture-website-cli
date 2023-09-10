@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import process from 'node:process';
 import meow from 'meow';
-import captureWebsite from 'capture-website';
+import captureWebsite from '@redwerkz/capture-website';
 import splitOnFirst from 'split-on-first';
 import getStdin from 'get-stdin';
 

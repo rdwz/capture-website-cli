@@ -1,15 +1,11 @@
 {
-	"name": "capture-website-cli",
+	"name": "@redwerkz/capture-website-cli",
 	"version": "3.0.1",
 	"description": "Capture screenshots of websites from the command-line",
 	"license": "MIT",
-	"repository": "sindresorhus/capture-website-cli",
+	"repository": "rdzw/capture-website-cli",
 	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
+	"author": "Marc Redwerkz <redwerkz@gmail.com> (https://github.com/rdwz)",
 	"type": "module",
 	"bin": {
 		"capture-website": "./cli.js"
@@ -41,7 +37,7 @@
 		"jpg"
 	],
 	"dependencies": {
-		"capture-website": "^3.2.0",
+		"@redwerkz/capture-website": "^4.0.0",
 		"get-stdin": "^9.0.0",
 		"meow": "^11.0.0",
 		"split-on-first": "^3.0.0"
